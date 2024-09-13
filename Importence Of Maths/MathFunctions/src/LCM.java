@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
-public class LCM{
+public class LCM{ // LCM - Least common Multiple
+
+
+//    The formula is lmc(a , b) = (a x b) / gcd ( a,b);
+
 
     public static int findLCM(int a, int b){
         return (a*b)/GCD(a,b);
@@ -25,7 +29,8 @@ public class LCM{
     Scanner scan = new Scanner(System.in);
     int a = scan.nextInt();
     int b = scan.nextInt();
-    System.out.println(findLcm(a , b ));
+//    System.out.println(findLcm(a , b ));
+        System.out.println(findLCM(a,b));
 }
 
     public static int findLcm(int a , int b){
